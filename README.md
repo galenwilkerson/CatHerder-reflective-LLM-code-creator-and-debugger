@@ -1,6 +1,6 @@
 # CatHerder: Reflective LLM Debugger
 
-<img src="cat_herder.png" alt="CatHerder Debugger" width="200" height="350">
+<img src="cat_herder.png" alt="CatHerder Debugger" width="300" height="350">
 
 ## Overview
 

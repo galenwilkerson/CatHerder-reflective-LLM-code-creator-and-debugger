@@ -13,6 +13,20 @@ CatHerder is a simple and intuitive debugger that utilizes Large Language Model 
 - **Error Handling**: Detects and handles repeated errors to avoid infinite loops.
 - **User-Friendly**: Allows users to input new code or modify existing code.
 
+### Description of Reflexion
+
+**Reflexion** is a framework designed to enhance the capabilities of language models (LLMs) through a process of self-evaluation and iterative improvement. The key idea is to enable language models to reflect on their outputs, identify errors or areas for improvement, and refine their responses based on this self-assessment. This process mimics human-like reflective thinking and learning, allowing the model to improve its performance over time through verbal reinforcement learning.
+
+In practice, Reflexion involves the following steps:
+1. **Self-Evaluation**: The model reviews its own generated content or the content produced by other models to identify issues, inconsistencies, or errors.
+2. **Feedback Generation**: The model generates feedback or suggestions for improvement based on its self-evaluation.
+3. **Iterative Refinement**: The model refines its outputs iteratively, using the feedback to improve its responses in subsequent iterations.
+
+This approach aims to make language models more robust, adaptive, and capable of producing high-quality outputs through continuous learning and self-improvement.  
+
+For more details, refer to the paper:
+> S. Shinn, E. Gao, A. Andreassen, D. Hendrycks. **"Reflexion: Language Agents with Verbal Reinforcement Learning."** NeurIPS 2023. [arXiv link](https://arxiv.org/abs/2303.11366).
+
 ## Usage
 
 1. **Clone the Repository**:

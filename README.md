@@ -63,4 +63,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Flow Chart
 
-<embed src="./CatHerder_Flow.pdf"/> 
+<img src="./CatHerder_Flow.png" alt="CatHerder Flowchart"  align="left" style="margin-right: 20px;"/>
+

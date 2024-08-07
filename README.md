@@ -1,10 +1,10 @@
-# CatHerder: Reflective LLM Debugger
+# CatHerder: Reflective LLM Code Creator & Debugger
 
 <img src="cat_herder.png" alt="CatHerder Debugger" width="150" height="200" align="left" style="margin-right: 20px;"/>
 
 ## Overview
 
-CatHerder is a simple and intuitive debugger that utilizes Large Language Model (LLM) reflection to help you debug Python code effectively. By iteratively refining code with the assistance of an LLM, this tool aims to make the debugging process smoother and more efficient.
+CatHerder is a simple and intuitive code creator and debugger that utilizes Large Language Model (LLM) reflection to help you debug Python code effectively. By iteratively refining code with the assistance of an LLM, this tool aims to make the debugging process smoother and more efficient.
 
 ## Features
 

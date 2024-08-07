@@ -29,6 +29,9 @@ This approach aims to make language models more robust, adaptive, and capable of
 For more details, refer to the paper:
 > S. Shinn, E. Gao, A. Andreassen, D. Hendrycks. **"Reflexion: Language Agents with Verbal Reinforcement Learning."** NeurIPS 2023. [arXiv link](https://arxiv.org/abs/2303.11366).
 
+## Run it here (you will need an OpenAI API key)
+https://colab.research.google.com/drive/16OzLx9YXMHLpaPgHbYhfYg_QZMYRJGAV?usp=sharing
+
 ## Usage
 
 1. **Clone the Repository**:

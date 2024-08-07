@@ -1,6 +1,3 @@
-Certainly! Here's the updated GitHub README with information about the attached `catHerder.py` script:
-
-```markdown
 # CatHerder: Reflective LLM Code Creator & Debugger
 
 <img src="cat_herder.png" alt="CatHerder Debugger" width="150" height="200" align="left" style="margin-right: 20px;"/>

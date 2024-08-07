@@ -6,7 +6,7 @@
 
 CatHerder is a simple and intuitive code creator and debugger that utilizes Large Language Model (LLM) reflection to help you debug Python code effectively. By iteratively refining code with the assistance of an LLM, this tool aims to make the debugging process smoother and more efficient.
 
-You can also use it to gradually add features to existing code.  This is where the cat herding really starts...
+You can also use it to gradually add features to existing code.  This is where the cat herding really begins...
 
 ## Features
 

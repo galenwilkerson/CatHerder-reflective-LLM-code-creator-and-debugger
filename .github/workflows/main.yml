@@ -1,9 +1,9 @@
-name: Run Python Script
+name: Run Jupyter Notebook
 
 on: [push]
 
 jobs:
-  run-python:
+  run-jupyter:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,9 +18,12 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip install jupyter jupyter-client
+        pip install -r requirements.txt || true
 
-    - name: Run script
+    - name: Execute Jupyter Notebook
       env:
         API_KEY: ${{ secrets.API_KEY }}
-      run: python your_script.py
+      run: |
+        export API_KEY=${{ secrets.API_KEY }}
+        jupyter nbconvert --to notebook --execute your_notebook.ipynb --output executed_notebook.ipynb

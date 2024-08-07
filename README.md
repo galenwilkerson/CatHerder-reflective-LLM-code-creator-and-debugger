@@ -10,7 +10,7 @@ You can also use it to gradually add features to existing code.  This is where t
 
 ## Features
 
-- **Automated Debugging**: Automatically debug Python code using LLM reflections.
+- **Automated Debugging**: Automatically debug code using LLM reflections.
 - **Iterative Refinement**: Continuously refine the code based on LLM feedback.
 - **Error Handling**: Detects and handles repeated errors to avoid infinite loops.
 - **User-Friendly**: Allows users to input new code or modify existing code.

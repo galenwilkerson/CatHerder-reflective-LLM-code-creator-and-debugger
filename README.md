@@ -142,5 +142,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 <img src="./CatHerder_Flow.png" alt="CatHerder Flowchart"  align="left" style="margin-right: 20px;"/>
 ```
-
-This updated README includes information about the `catHerder.py` script and how to use it from the command line, along with the existing details about the project and examples.

@@ -1,3 +1,6 @@
+Certainly! Here's the updated GitHub README with information about the attached `catHerder.py` script:
+
+```markdown
 # CatHerder: Reflective LLM Code Creator & Debugger
 
 <img src="cat_herder.png" alt="CatHerder Debugger" width="150" height="200" align="left" style="margin-right: 20px;"/>
@@ -98,8 +101,33 @@ Iteration 1:
 Code executed successfully.
 Saved to script.py
 Final version saved to script.py
+```
 
+## Using `catHerder.py`
 
+The `catHerder.py` script is a command-line tool that allows you to generate and debug code using LLM reflections. You can provide a code prompt or modify existing code, specify the code type (e.g., Python, LaTeX, HTML), and set the number of debug iterations.
+
+### Running the Script
+
+```bash
+python catHerder.py -p "create a fibonacci class" -i 5
+```
+
+### Command-Line Arguments
+
+- `-p`, `--prompt`: The code prompt to generate new code or the path to a file containing the prompt.
+- `-m`, `--modify`: The path to the existing code file to modify.
+- `-c`, `--code_type`: The type of code (default: python, latex, html, etc.). Default is 'python'.
+- `-i`, `--iterations`: Number of debug iterations to perform. Default is 5.
+
+### Example
+
+```bash
+python catHerder.py -p "create a fibonacci class" -i 5
+```
+
+```bash
+python catHerder.py -m existing_code.py -c python -i 3
 ```
 
 ## Contributing
@@ -113,4 +141,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Flow Chart
 
 <img src="./CatHerder_Flow.png" alt="CatHerder Flowchart"  align="left" style="margin-right: 20px;"/>
+```
 
+This updated README includes information about the `catHerder.py` script and how to use it from the command line, along with the existing details about the project and examples.
